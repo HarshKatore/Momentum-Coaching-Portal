@@ -56,7 +56,7 @@ export default function ScrollRevealWrapper({
       },
       {
         threshold: viewFactor,
-      }
+      },
     );
 
     observer.observe(element);
@@ -84,7 +84,7 @@ export default function ScrollRevealWrapper({
 
   const initialPosition = getInitialPosition();
 
-  const shouldAnimate = reset ? isInView : (isInView || hasAnimated);
+  const shouldAnimate = reset ? isInView : isInView || hasAnimated;
 
   return (
     <motion.div
