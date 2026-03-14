@@ -8,6 +8,9 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/layout/FloatingContact";
 
+// Effects Components
+// import TawkToChat from "@/components/effects/TawkToChat";
+
 // Pages
 import Home from "@/pages/Home";
 import Courses from "@/pages/Courses";
@@ -24,11 +27,11 @@ const queryClient = new QueryClient();
 // ScrollToTop component to handle route changes
 function ScrollToTop() {
   const [pathname] = WouterRouter.useLocation?.() ?? ["/"];
-  
+
   if (typeof window !== "undefined") {
     window.scrollTo(0, 0);
   }
-  
+
   return null;
 }
 
@@ -63,6 +66,7 @@ function App() {
           <Router />
         </WouterRouter>
         <Toaster />
+        {/* <TawkToChat propertyId="YOUR_PROPERTY_ID" widgetId="YOUR_WIDGET_ID" /> */}
       </TooltipProvider>
     </QueryClientProvider>
   );
