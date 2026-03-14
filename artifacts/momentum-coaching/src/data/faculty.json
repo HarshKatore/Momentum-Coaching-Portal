@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Er. Rahul Sharma",
+    "subject": "Mathematics",
+    "qualification": "B.Tech, IIT Bombay",
+    "experience": "12 Years",
+    "bio": "Expert in JEE Mathematics with a track record of producing top ranks.",
+    "photo": null,
+    "specialization": "JEE Advanced Mathematics"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Priya Deshmukh",
+    "subject": "Biology",
+    "qualification": "MBBS, AIIMS Delhi",
+    "experience": "9 Years",
+    "bio": "Specialist in NEET Biology with deep knowledge of medical entrance patterns.",
+    "photo": null,
+    "specialization": "NEET Biology"
+  },
+  {
+    "id": 3,
+    "name": "Er. Suresh Patil",
+    "subject": "Physics",
+    "qualification": "M.Tech, NIT Nagpur",
+    "experience": "10 Years",
+    "bio": "Physics expert with ability to simplify complex concepts for students.",
+    "photo": null,
+    "specialization": "JEE & NEET Physics"
+  },
+  {
+    "id": 4,
+    "name": "Ms. Anjali Waghmare",
+    "subject": "Chemistry",
+    "qualification": "M.Sc Chemistry, Pune University",
+    "experience": "8 Years",
+    "bio": "Organic and Inorganic chemistry specialist with innovative teaching methods.",
+    "photo": null,
+    "specialization": "JEE & NEET Chemistry"
+  },
+  {
+    "id": 5,
+    "name": "Mr. Vikram Alone",
+    "subject": "Mathematics",
+    "qualification": "M.Sc Mathematics, VNIT",
+    "experience": "7 Years",
+    "bio": "Dedicated MHTCET and JEE Main mathematics coach with excellent results.",
+    "photo": null,
+    "specialization": "MHTCET & JEE Main"
+  }
+]

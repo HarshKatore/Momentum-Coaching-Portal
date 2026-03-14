@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Class 11 Science",
+    "subjects": ["Physics", "Chemistry", "Mathematics", "Biology"],
+    "targetExam": "Foundation for JEE / NEET",
+    "duration": "1 Year",
+    "features": [
+      "NCERT + Competitive Exam syllabus",
+      "Regular tests & assessments",
+      "Doubt clearing sessions",
+      "Study material provided"
+    ],
+    "icon": "📗",
+    "badge": "Foundation"
+  },
+  {
+    "id": 2,
+    "name": "Class 12 Science",
+    "subjects": ["Physics", "Chemistry", "Mathematics", "Biology"],
+    "targetExam": "Board + JEE / NEET",
+    "duration": "1 Year",
+    "features": [
+      "Board exam preparation",
+      "Entrance exam focus",
+      "Mock tests series",
+      "Personal mentoring"
+    ],
+    "icon": "📘",
+    "badge": "Board + Entrance"
+  },
+  {
+    "id": 3,
+    "name": "JEE Main Batch",
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "targetExam": "JEE Main",
+    "duration": "1-2 Years",
+    "features": [
+      "Chapter-wise tests",
+      "Previous year papers",
+      "NTA pattern mock tests",
+      "Online + offline classes"
+    ],
+    "icon": "🏛️",
+    "badge": "Engineering"
+  },
+  {
+    "id": 4,
+    "name": "JEE Main + Advanced Batch",
+    "subjects": ["Physics", "Chemistry", "Mathematics"],
+    "targetExam": "JEE Main + JEE Advanced",
+    "duration": "2 Years",
+    "features": [
+      "IIT-level problem solving",
+      "Advanced topic deep-dives",
+      "Rank-oriented preparation",
+      "Expert IIT faculty"
+    ],
+    "icon": "🎓",
+    "badge": "IIT Focused"
+  },
+  {
+    "id": 5,
+    "name": "NEET Preparation Batch",
+    "subjects": ["Physics", "Chemistry", "Biology"],
+    "targetExam": "NEET UG",
+    "duration": "1-2 Years",
+    "features": [
+      "NCERT based teaching",
+      "Biology special sessions",
+      "NTA pattern tests",
+      "Medical exam strategies"
+    ],
+    "icon": "🩺",
+    "badge": "Medical"
+  },
+  {
+    "id": 6,
+    "name": "MHTCET Batch",
+    "subjects": ["Physics", "Chemistry", "Mathematics / Biology"],
+    "targetExam": "MHT-CET",
+    "duration": "1 Year",
+    "features": [
+      "Maharashtra syllabus focus",
+      "MHT-CET pattern tests",
+      "State rank improvement",
+      "Local exam strategies"
+    ],
+    "icon": "🏆",
+    "badge": "Maharashtra"
+  }
+]

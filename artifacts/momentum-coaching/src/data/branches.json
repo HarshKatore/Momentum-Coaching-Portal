@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Momentum Coaching — Warora Branch 1",
+    "address": "Shop No. 5, Gandhi Chowk, Main Road, Warora, Chandrapur, Maharashtra 442907",
+    "phone": "+91 9876543210",
+    "email": "warora1@momentumcoaching.in",
+    "timings": "Mon–Sat: 7:00 AM – 8:00 PM",
+    "mapEmbedUrl": "",
+    "courses": ["Class 11 Science", "Class 12 Science", "JEE Main Batch", "NEET Batch"]
+  },
+  {
+    "id": 2,
+    "name": "Momentum Coaching — Warora Branch 2",
+    "address": "Plot No. 12, Near Bus Stand, Station Road, Warora, Chandrapur, Maharashtra 442907",
+    "phone": "+91 9876543211",
+    "email": "warora2@momentumcoaching.in",
+    "timings": "Mon–Sat: 7:00 AM – 8:00 PM",
+    "mapEmbedUrl": "",
+    "courses": ["JEE Main + Advanced", "MHTCET Batch", "Class 11 Science", "Class 12 Science"]
+  }
+]

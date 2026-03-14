@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "For premium scroll animations and page transitions"
+  "clsx": "For conditional class name joining"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images:
+  - path: "artifacts/momentum-coaching/public/images/hero-bg.png"
+    description: "Abstract premium dark purple and deep violet gradient background with subtle glowing light leaks and geometric mesh patterns, highly professional and modern"
+    aspect_ratio: "16:9"
+  - path: "artifacts/momentum-coaching/public/images/about-institute.png"
+    description: "Modern professional educational building interior, bright clean lighting, subtle purple accent lighting, depth of field, architectural photography style"
+    aspect_ratio: "16:9"
+
+notes:
+  - Static frontend-only application using local JSON data files
+  - Forms are simulated with UI feedback (toasts) since there is no backend API

@@ -1,0 +1,519 @@
+Momentum Coaching Institute Website Requirement Plan
+1. Institute Overview
+
+Institute Name: Momentum Coaching Institute
+Founded: 2025
+Location: Warora, Chandrapur, Maharashtra
+Branches: 2 branches (Warora)
+Founders: 2 founders
+Current Director: 1 director
+
+Target Students
+
+Class 11 Science
+
+Class 12 Science
+
+JEE Main
+
+JEE Advanced
+
+NEET
+
+MHTCET
+
+Primary Goal of Website
+
+Attract parents and students
+
+Provide complete course information
+
+Display results and credibility
+
+Make contacting the institute extremely easy
+
+2. Technical Requirements (Strict)
+
+The website must follow these constraints.
+
+Framework
+
+Must use
+
+React JS
+
+Recommended setup
+
+React + Vite
+
+No backend allowed.
+
+Data Handling
+
+All dynamic data must come from editable JSON files.
+
+Example:
+
+src/data/
+courses.json
+faculty.json
+toppers.json
+branches.json
+gallery.json
+testimonials.json
+
+This allows non-developers to edit content easily.
+
+Global Config System
+
+All keys, contact info, links must be editable from one config file.
+
+Example
+
+src/config/siteConfig.js
+
+Example structure
+
+export const CONTACT = {
+  phone: "+91XXXXXXXXXX",
+  whatsapp: "919XXXXXXXXX",
+  email: "info@momentumcoaching.in"
+}
+
+export const SOCIAL = {
+  youtube: "",
+  instagram: "",
+  telegram: ""
+}
+
+export const SITE = {
+  instituteName: "Momentum Coaching Institute",
+  tagline: "Building Future IITians & Doctors",
+  foundedYear: "2025"
+}
+
+Agency must not hardcode these values anywhere else.
+
+Environment Variables
+
+Example .env
+
+VITE_GOOGLE_MAP_URL=
+VITE_SITE_DOMAIN=
+
+Secrets must not be committed to GitHub.
+
+3. Folder Structure Requirement
+
+The project must follow a clean structure.
+
+Example:
+
+src
+ ├ assets
+ │   ├ images
+ │   ├ icons
+ │   └ logo
+ │
+ ├ components
+ │   ├ Navbar
+ │   ├ Footer
+ │   ├ CourseCard
+ │   ├ FacultyCard
+ │   ├ TopperCard
+ │   └ TestimonialCard
+ │
+ ├ pages
+ │   ├ Home
+ │   ├ Courses
+ │   ├ Faculty
+ │   ├ Results
+ │   ├ Branches
+ │   ├ Gallery
+ │   ├ About
+ │   └ Contact
+ │
+ ├ data
+ │   ├ courses.json
+ │   ├ faculty.json
+ │   ├ toppers.json
+ │   ├ branches.json
+ │
+ ├ config
+ │   └ siteConfig.js
+ │
+ ├ hooks
+ ├ styles
+ └ App.jsx
+
+This makes the code developer friendly and scalable.
+
+4. Design Requirements
+
+Design style:
+
+Clean & Professional (similar to premium coaching websites)
+
+But also include modern creative elements.
+
+Color Theme
+
+Primary color:
+
+Purple
+
+Example palette
+
+Primary: Purple
+Secondary: Light purple
+Accent: White
+Text: Dark gray
+
+Must look premium but not overly flashy.
+
+Typography
+
+Use Google Fonts (free).
+
+Examples:
+
+Poppins
+Inter
+Montserrat
+
+Font should be easily replaceable from one place.
+
+Logo System
+
+Agency must include temporary placeholder logo.
+
+Logo must be changeable from
+
+src/assets/logo
+5. Website Pages
+Home Page
+
+Main landing page.
+
+Sections:
+
+Hero section
+
+Example content (placeholder):
+
+Momentum Coaching Institute
+Building Future IITians, Doctors & Engineers
+
+Admissions Open for 2026 Batch
+
+Buttons
+
+View Courses
+WhatsApp Enquiry
+Call Now
+
+Why Choose Momentum
+
+Example points
+
+Experienced Faculty
+
+Result Oriented Teaching
+
+Personal Attention
+
+Competitive Exam Focus
+
+Courses Overview
+
+Cards showing
+
+Class 11 Science
+Class 12 Science
+JEE Preparation
+NEET Preparation
+MHTCET Preparation
+
+Toppers Highlight
+
+Example placeholder
+
+AIR 542 – JEE Advanced
+Score 685 – NEET
+MHTCET Rank 312
+
+Faculty Highlights
+
+Top faculty cards.
+
+Student Testimonials
+
+Example:
+
+Momentum helped me crack NEET with confidence.
+
+Branch Locations
+
+Map + address.
+
+Final Call to Action
+
+Example
+
+Admissions Open
+Limited Seats Available
+Contact Now
+Courses Page
+
+Each course card must show:
+
+Course Name
+Subjects
+Target Exam
+Duration
+Features
+
+Example
+
+JEE Main + Advanced Batch
+Subjects: Physics, Chemistry, Mathematics
+Duration: 2 Years
+
+Buttons
+
+Enquire on WhatsApp
+Call Now
+Faculty Page
+
+Each faculty card:
+
+Photo
+Name
+Subject
+Qualification
+Experience
+
+Example placeholder
+
+Er. Rahul Sharma
+B.Tech IIT Bombay
+Mathematics Faculty
+12 Years Experience
+Results / Toppers Page
+
+Each topper card:
+
+Student Photo
+Name
+Exam
+Rank / Score
+Year
+Branches Page
+
+Currently:
+
+Warora Branch 1
+Warora Branch 2
+
+Each branch includes:
+
+Address
+Phone
+Google Map
+Gallery Page
+
+Categories:
+
+Classrooms
+Seminars
+Events
+Celebrations
+About Page
+
+Sections:
+
+Institute Story
+
+Momentum Coaching Institute was founded in 2025 with the vision of providing high quality coaching for engineering and medical entrance exams.
+
+Mission
+
+Vision
+
+Director Message
+
+Contact Page
+
+Include
+
+Phone
+WhatsApp
+Email
+Address
+Google Map
+
+Buttons:
+
+Call Now
+WhatsApp
+6. Contact Integration (No Backend)
+
+Must include click based contact options.
+
+WhatsApp
+
+Example
+
+https://wa.me/919XXXXXXXXX
+
+With message
+
+Hello Momentum Coaching Institute, I want information about your courses.
+Call Button
+tel:+919XXXXXXXXXX
+Floating Contact Widget
+
+Visible on every page.
+
+Buttons
+
+WhatsApp
+Call
+7. SEO Requirements (Free)
+
+Agency must implement basic SEO.
+
+Examples:
+
+Page titles
+
+Best JEE Coaching in Warora
+Best NEET Coaching in Warora
+Momentum Coaching Institute Warora
+
+Also include:
+
+meta tags
+
+open graph tags
+
+sitemap
+
+responsive design
+
+fast loading
+
+8. Free Infrastructure Only
+
+Allowed free services:
+
+GitHub
+Vercel
+Netlify
+Google Maps Embed
+Google Fonts
+
+No paid APIs.
+
+9. Deployment Requirements
+
+The project must run with:
+
+npm install
+npm run dev
+
+Build command
+
+npm run build
+
+Must deploy easily on:
+
+Vercel
+Netlify
+10. README Requirement (Very Important)
+
+Agency must include one comprehensive README.md.
+
+It must include:
+
+1 Installation
+git clone repo
+cd project
+npm install
+npm run dev
+2 Environment Setup
+
+How to create .env.
+
+3 Editing Contact Info
+
+Explain editing:
+
+src/config/siteConfig.js
+4 Adding Courses
+
+Edit
+
+src/data/courses.json
+5 Adding Faculty
+
+Edit
+
+src/data/faculty.json
+6 Adding Toppers
+
+Edit
+
+src/data/toppers.json
+7 Changing Logo
+
+Replace file in
+
+src/assets/logo
+8 Deployment
+
+Steps to deploy on
+
+Vercel
+Netlify
+11. Future Expandability
+
+The architecture should support future features without major rewrite:
+
+Future ideas:
+
+Online Test Series
+Student Portal
+Study Material
+Blog
+
+But these will not be implemented now.
+
+12. Placeholder Content
+
+Since institute is new, the agency should include imaginary sample data for:
+
+faculty
+
+toppers
+
+testimonials
+
+gallery
+
+All must be easily editable.
+
+Final Result
+
+The final deliverables from the agency must include:
+
+React Source Code
+Clean folder structure
+Editable JSON data system
+Config file for keys
+Environment variable support
+Responsive design
+Free hosting ready
+Full README
+
+If you'd like, I can also show you 3 extremely powerful free features most coaching websites miss that can make this website 10× more effective in attracting students.

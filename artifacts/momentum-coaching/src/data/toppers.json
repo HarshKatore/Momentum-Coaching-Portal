@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Rohan Meshram",
+    "exam": "JEE Advanced",
+    "rank": "AIR 542",
+    "score": null,
+    "year": "2025",
+    "photo": null,
+    "batch": "JEE Main + Advanced"
+  },
+  {
+    "id": 2,
+    "name": "Prachi Gaikwad",
+    "exam": "NEET UG",
+    "rank": null,
+    "score": "685 / 720",
+    "year": "2025",
+    "photo": null,
+    "batch": "NEET Preparation"
+  },
+  {
+    "id": 3,
+    "name": "Saurabh Bhagat",
+    "exam": "MHT-CET",
+    "rank": "State Rank 312",
+    "score": null,
+    "year": "2025",
+    "photo": null,
+    "batch": "MHTCET Batch"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Thakre",
+    "exam": "JEE Main",
+    "rank": null,
+    "score": "98.7 Percentile",
+    "year": "2025",
+    "photo": null,
+    "batch": "JEE Main Batch"
+  },
+  {
+    "id": 5,
+    "name": "Kiran Bawane",
+    "exam": "NEET UG",
+    "rank": "State Rank 125",
+    "score": "655 / 720",
+    "year": "2025",
+    "photo": null,
+    "batch": "NEET Preparation"
+  },
+  {
+    "id": 6,
+    "name": "Amit Dongare",
+    "exam": "JEE Advanced",
+    "rank": "AIR 789",
+    "score": null,
+    "year": "2025",
+    "photo": null,
+    "batch": "JEE Main + Advanced"
+  }
+]

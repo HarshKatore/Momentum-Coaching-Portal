@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Classrooms",
+    "caption": "Our modern, well-equipped classroom at Branch 1",
+    "image": null
+  },
+  {
+    "id": 2,
+    "category": "Classrooms",
+    "caption": "Digital teaching setup for interactive learning",
+    "image": null
+  },
+  {
+    "id": 3,
+    "category": "Seminars",
+    "caption": "JEE Strategy Seminar by our expert faculty",
+    "image": null
+  },
+  {
+    "id": 4,
+    "category": "Seminars",
+    "caption": "NEET guidance seminar for 2025-26 batch",
+    "image": null
+  },
+  {
+    "id": 5,
+    "category": "Events",
+    "caption": "Annual Science Olympiad organized by Momentum",
+    "image": null
+  },
+  {
+    "id": 6,
+    "category": "Events",
+    "caption": "Students celebrating their JEE results",
+    "image": null
+  },
+  {
+    "id": 7,
+    "category": "Celebrations",
+    "caption": "Result celebration — NEET toppers felicitation",
+    "image": null
+  },
+  {
+    "id": 8,
+    "category": "Celebrations",
+    "caption": "Annual Day celebrations with students and parents",
+    "image": null
+  }
+]

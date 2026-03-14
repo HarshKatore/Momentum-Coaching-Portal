@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Rohan Meshram",
+    "exam": "JEE Advanced — AIR 542",
+    "text": "Momentum Coaching transformed my preparation. The faculty's dedication and structured approach helped me crack JEE Advanced. I couldn't have achieved this rank without their guidance.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Prachi Gaikwad",
+    "exam": "NEET — 685/720",
+    "text": "The Biology sessions at Momentum are simply the best. Dr. Deshmukh's teaching made every concept crystal clear. I confidently scored 685 in NEET and secured my dream medical seat.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Saurabh Bhagat",
+    "exam": "MHT-CET — Rank 312",
+    "text": "I joined Momentum for MHT-CET and it was the best decision. The local exam-focused approach and regular mock tests gave me a competitive edge over other students.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Sneha Thakre",
+    "exam": "JEE Main — 98.7 Percentile",
+    "text": "Momentum helped me crack JEE Main with confidence. The personal attention from faculty and the doubt-clearing sessions are what make this institute stand out.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Parent — Anil Bondre",
+    "exam": "Parent of JEE Student",
+    "text": "As a parent, I am very satisfied with Momentum Coaching. The faculty keeps us informed about our child's progress. The environment is disciplined and motivating.",
+    "rating": 5
+  }
+]
