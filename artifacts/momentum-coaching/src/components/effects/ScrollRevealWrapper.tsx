@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { useInView } from "react-intersection-observer";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 interface ScrollRevealWrapperProps {
@@ -36,10 +35,36 @@ export default function ScrollRevealWrapper({
   viewOffset = { top: 0, right: 0, bottom: 0, left: 0 },
 }: ScrollRevealWrapperProps) {
   const [hasAnimated, setHasAnimated] = useState(false);
-  const { ref, inView } = useInView({
-    threshold: viewFactor,
-    triggerOnce: !reset,
-  });
+  const [isInView, setIsInView] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsInView(true);
+          if (!reset) {
+            setHasAnimated(true);
+          }
+        } else if (reset) {
+          setIsInView(false);
+          setHasAnimated(false);
+        }
+      },
+      {
+        threshold: viewFactor,
+      }
+    );
+
+    observer.observe(element);
+
+    return () => {
+      observer.unobserve(element);
+    };
+  }, [viewFactor, reset]);
 
   const getInitialPosition = () => {
     const dist = parseInt(distance);
@@ -59,13 +84,7 @@ export default function ScrollRevealWrapper({
 
   const initialPosition = getInitialPosition();
 
-  const shouldAnimate = reset ? inView : inView || hasAnimated;
-
-  useEffect(() => {
-    if (inView && !hasAnimated) {
-      setHasAnimated(true);
-    }
-  }, [inView, hasAnimated]);
+  const shouldAnimate = reset ? isInView : (isInView || hasAnimated);
 
   return (
     <motion.div
